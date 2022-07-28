@@ -19,21 +19,23 @@
       rel="stylesheet"
     />
     <style>
-      .carousel-item > div {
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+       .carousel-item > div {
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+       .text-color{
+        color: goldenrod;
+       }   
     </style>
   </head>
   <body style="font-family: 'Poppins', sans-serif">
     <!-- Nav Start -->
     <header>
-      <section class="mb-5">
-        <nav class="navbar fixed-top navbar-expand-lg bg-light container">
-          <div class="container-fluid">
+      <section class="mb-3">
+        <nav class="navbar sticky-top navbar-expand-lg bg-light ">
+          <div class="container">
             <a class="navbar-brand p-3 fw-bolder" href="#">TigerTech</a>
             <button
               class="navbar-toggler"
@@ -56,7 +58,7 @@
                 <a class="nav-link ms-3" href="#">Deals</a>
                 <a class="nav-link ms-3" href="#">Success</a>
                 <a class="nav-link ms-3" href="#">About</a>
-                <a class="nav-link ms-3 btn btn-outline-primary" href="#">Register</a>
+                <a  class="nav-link ms-3 btn btn-outline-primary" href="#">Register</a>
                 
               </div>
             </div>
@@ -65,30 +67,30 @@
       </section>
     </header>
     <!-- Nav End -->
-    <!-- Main Content Start-->
-    <section class="container">
+    <!-- banner content start-->
+    <section class="container ">
       <div
         id="carouselExampleCaptions"
         class="carousel slide"
-        data-bs-ride="false"
+        data-bs-ride="true"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active align-items-center" style="background: black">
+        <div class="carousel-inner ">
+          <div class="carousel-item active mb-5" style="background: black">
             <img
               src="./images/cover/cover-1.png"
               class="d-block w-100 opacity-50"
               alt="..."
             />
               <div class="carousel-caption d-md-block ">
-                <h2 class="">Get Started Digital Learning</h2>
+                <h1><span class="text-color">Get Started</span> With TigerTech Make A Good Career On <span class="text-color">Digital Skills</span></h1>
                 <p>
-                  Some representative placeholder content for the first slide.
+                  Here you can choose your next step of tech skills
                 </p>
-                <button class="btn btn-outline-light">Buy now</button>
+                <button class="btn btn-primary">Get Started</button>
               </div>
             </div>
           </div>
-          <div class="carousel-item" style="background: black">
+          <div class="carousel-item mb-5" style="background: black">
             <img
               src="./images/cover/cover-1.png"
               class="d-block w-100 opacity-50"
@@ -96,26 +98,26 @@
             />
             <div class="carousel-caption d-md-block">
               <div>
-                <h5>Second slide label</h5>
+                <h1>Want To Kickstart Your <span class="text-color">IT Career?</span></h1>
               <p>
-                Some representative placeholder content for the second slide.
+                Thousands Of Candidate Join Our Digital Tech Skills Program.
               </p>
-              <button class="btn btn-outline-light">Buy now</button>
+              <button class="btn btn-primary">Get Started</button>
               </div>
             </div>
           </div>
-          <div class="carousel-item" style="background: black">
+          <div class="carousel-item mb-5" style="background: black">
             <img
               src="./images/cover/cover-1.png"
               class="d-block w-100 opacity-50"
               alt="..."
             />
             <div class="carousel-caption d-md-block">
-              <h5>Third slide label</h5>
+              <h1>Brighter Future With <span class="text-color">Digital Skills</span></h1>
               <p>
-                Some representative placeholder content for the third slide.
+                Worlds Future Mostly On Digital Skills, Join us
               </p>
-              <button class="btn btn-outline-light">Buy now</button>
+              <button class="btn btn-primary">Get Started</button>
             </div>
           </div>
         </div>
@@ -139,7 +141,7 @@
         </button>
       </div>
     </section>
-    <!-- Main Content End-->
+    <!-- banner content end-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
